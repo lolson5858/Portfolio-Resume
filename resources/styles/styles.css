@@ -85,3 +85,10 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
+.footer {
+  position: absolute;
+  bottom: zero;
+  background-color:#be5c00;
+  width: 100%;
+}
