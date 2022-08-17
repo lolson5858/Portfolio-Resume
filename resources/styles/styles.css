@@ -8,8 +8,9 @@ body {
 }
 
 header {
-  background: #c3073f;
+  background: #be5c00;
 }
+
 
 header::after {
   content: '';
@@ -18,10 +19,23 @@ header::after {
 }
 
 .logo {
-  width: 5%;
+  width: 7%;
   float: left;
   margin-left: 50px;
   padding-top: 25px;
+  padding-bottom: 0px;
+  margin-bottom:0;
+  
+}
+
+.title {
+  
+  float: left;
+  margin-left: 250px;
+  padding-top: 25px;
+  font-family: 'Aboreto', cursive;
+  font-size:48px;
+  padding-bottom: 20px;
 }
 
 nav {
@@ -37,7 +51,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 53px;
+  padding-top: 70px;
   font-family: 'Merriweather', serif;
   font-weight:bold;
   font-size: 25px;
@@ -53,6 +67,7 @@ nav a {
 
 nav a:hover {
  color: #000;
+ background-color:#ad5502;
 }
 
 nav a::before {
