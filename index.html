@@ -32,10 +32,17 @@
 <main class="main">
   <div>
     
-    <div>
-      <h2>About Luke</h2>
-      <p>I don't like to talk about myself, so here's a poem instead.</p><br>
-      <p>Luke spent the last seven years working in Education,
+    <div class="about">
+      <div class="main-head">
+        <h2 class="heading">About Luke</h2>
+      </div>
+      
+      <div class="about-flex">
+
+        <div class="portrait-cont">
+          <img class="flex-item" id="portrait" src="resources/images/portrait.jpg" alt="portrait of Luke">
+        </div>
+        <p id="aboutme" class="flex-item">Luke spent the last seven years working in Education,
          primarily teaching middle school students in Minnesota.
           He enjoys the eternal battle between his will to explore nature and his 
           will to explore alternate universes that only books can provide. In his 
@@ -45,40 +52,56 @@
           development but is motivated by the chance to learn something new and 
           the opportunity for creating something that can shape the world we live in.
           He's currently seeking employment in web development and/or storytelling.</p>
+          <div id="whitespace">
+
+          </div>
+      </div>
+      
     </div>
   </div>
-  <section>
-    <h2>Skills</h2>
-    <div>
-      <i class="fab fa-html5"></i>
-      <i class="fa-brands fa-css3"></i>
-      <i class="fa-brands fa-js"></i>
-      <i class="fa-brands fa-git"></i>
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-solid fa-font-awesome"></i>
-      <i class="fa-brands fa-bootstrap"></i>
-      <i class="fa-brands fa-windows"></i>
-      <i class="fa-brands fa-python"></i>
-      <i class="fa-brands fa-google-drive"></i>
-      <i class="fa-solid fa-pencil"></i>
+  <section class="skills">
+    <div class="main-head">
+      <h2 class="heading">Skills</h2>
+    </div>
+    
+    <div id="logos-container">
+      <i class="fab fa-html5 fa"></i>
+      <i class="fa-brands fa-css3 fa"></i>
+      <i class="fa-brands fa-js fa"></i>
+      <i class="fa-brands fa-git fa"></i>
+      <i class="fa-brands fa-github fa"></i>
+      <i class="fa-solid fa-font-awesome fa"></i>
+      <i class="fa-brands fa-bootstrap fa"></i>
+      <i class="fa-brands fa-windows fa"></i>
+      <i class="fa-brands fa-python fa"></i>
+      <i class="fa-brands fa-google-drive fa"></i>
+      <i class="fa-solid fa-pencil fa"></i>
     </div>
   </section>
   
 
-  <section>
-    <h2>Experience</h2>
-    <ul><h3>Urban Academy Middle School 2021-2022</h3>
-      <li>6th Grade Language Arts Teacher</li>
-      <li>6th Grade Social Studies Teacher</li>
-      <li>AVID advisor and instructor</li>
-      <li>Curriculum development</li>
-      <h3>Urban Academy Charter School 2019-2021</h3>
-      <li>6th Grade Teacher</li>
-      <li>Virtual Curriculum Development</li>
-    </ul>
+  <section class="experience">
+    <div class="main-head">
+      <h2 class="heading">Experience</h2>
+    </div>
+    <div class="exp-container">
+      <ul>
+        <h3>Urban Academy Middle School 2021-2022</h3>
+          <li>6th Grade Language Arts Teacher</li>
+          <li>6th Grade Social Studies Teacher</li>
+          <li>AVID advisor and instructor</li>
+          <li>Curriculum development</li>
+        <h3>Urban Academy Charter School 2019-2021</h3>
+          <li>6th Grade Teacher</li>
+          <li>Virtual Curriculum Development</li>
+      </ul>
+    </div>
+    
   </section>
-  <section>
-    <h2>Education</h2>
+  <section class="education">
+    <div class="main-head">
+      <h2 class="heading">Education</h2>
+    </div>
     <h3>University of Minnesota 2010-2013</h3>
     <img src="resources/images/goldy_logo.png" alt="Minnesota Golden Gophers">
     <ul>
@@ -95,8 +118,10 @@
       </ul>
     
   </section>
-  <section>
-    <h2>Projects</h2>
+  <section class="projects">
+    <div class="main-head">
+      <h2 class="heading">Projects</h2>
+    </div>
     <h3>Omnibus!</h3>
     <p>Educational Recording webapp using Python 3, Django and bootstrap styling</p>
   </section>

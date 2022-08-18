@@ -67,7 +67,7 @@ nav a {
 
 nav a:hover {
  color: #000;
- background-color:#ad5502;
+ background-color:white;
 }
 
 nav a::before {
@@ -91,4 +91,96 @@ nav a:hover::before {
   bottom: zero;
   background-color:#be5c00;
   width: 100%;
+}
+
+.about-flex {
+  display: flex;
+  margin: 0 0;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.about-flex:before {
+  content: '';
+  display: block;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image: url("/resources/images/bookshelf_1.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 50% 0;
+  opacity: .3;
+}
+
+
+.portrait-cont {
+  flex: .5;
+  justify-content: center;
+  position: relative;
+  
+  align-items: center;
+}
+
+#portrait {
+  min-width: 0;
+  width: 40%;
+  justify-content: center;
+  float: right;
+  margin-right: 1.5rem;
+}
+
+#aboutme {
+  position: relative;
+  flex: 1;
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  color:white;
+  padding: 2rem;
+  margin-left: 2rem;
+  background-color: rgba(190, 92, 0, .7);
+}
+
+#whitespace {
+  flex: .2;
+}
+
+.main-head {
+  background-color: white;
+  width: fit-content;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  margin-left: 6rem;
+}
+.heading {
+  padding: 10px;
+  font-size: 3.5rem;
+  font-family:  'Aboreto', cursive;
+  color: #be5c00;
+  margin-bottom: 0;
+}
+
+#logos-container {
+  display: flex;
+  width:100%;
+  background-color:#be5c00;
+  justify-content: space-between;
+}
+
+
+.fa {
+  width:100%;
+  height: 6rem;
+  font-size: 6rem;
+  padding: 2rem 2rem;
+}
+
+.exp-container {
+  display:flex;
+  width: 100%;
+  background-color: #be5c00;
 }
