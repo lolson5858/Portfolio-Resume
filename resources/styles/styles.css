@@ -260,8 +260,17 @@ p {
 li {
   font-family: 'Merriweather' serif;
   font-weight: 700;
+  padding:.4em;
 }
 
 footer li {
   list-style:none;
+}
+
+.marker ::marker {
+  color:#1a1a1d;
+  font-size: 1em;
+  content: '\e4dc';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 700;
 }
