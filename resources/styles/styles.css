@@ -149,7 +149,7 @@ nav a:hover::before {
 }
 
 .main-head {
-  background-color: white;
+  background-color: antiquewhite;
   width: fit-content;
   justify-content: center;
   align-content: center;
@@ -201,9 +201,12 @@ nav a:hover::before {
 
 #hamlogo {
   width:90%;
+  display: flex;
 }
+
 #goldy {
-  width: 35%;
+  width: 38.962%;
+  display: flex;
 }
 
 h3 {
@@ -235,6 +238,7 @@ p {
 
 .education {
   margin-bottom: 2rem;
+
 }
 
 #Hamh3 {
@@ -245,6 +249,7 @@ p {
   width:fit-content;
   padding:3px;
   font-size: 2rem;
+
 }
 
 #uh3 {
@@ -268,9 +273,22 @@ footer li {
 }
 
 .marker ::marker {
-  color:#1a1a1d;
+  color: #be5c00;
   font-size: 1em;
   content: '\e4dc';
   font-family: 'Font Awesome 6 Free';
   font-weight: 700;
 }
+
+.edul {
+  background-color: rgba(26, 26, 29, 0.7);
+}
+
+#uul {
+  width: 22.5266rem;
+}
+
+#hul {
+  width: 34.1rem;
+}
+
