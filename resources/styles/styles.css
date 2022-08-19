@@ -32,10 +32,8 @@ header::after {
   
   float: left;
   margin-left: 250px;
-  padding-top: 25px;
   font-family: 'Aboreto', cursive;
-  font-size:48px;
-  padding-bottom: 20px;
+  font-size:4rem;
 }
 
 nav {
@@ -362,4 +360,43 @@ footer ul {
 footer h3 {
   margin-left: 45%;
   font-size: 2rem;
+}
+
+.intro {
+  background-color: #1a1a1d;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  font-family: 'Aboreto', cursive;
+  font-size: 3rem;
+}
+
+.slider {
+  background-color: #be5c00;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+ transform: translateY(100%);
+}
+
+.hide {
+  background: #1a1a1d;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display:inline-block;
 }
